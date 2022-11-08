@@ -21,7 +21,7 @@ const Menu = () => {
       {/* right click are*/}
       <div className="relative h-full bg-[#007FAB] left-0 w-[20px]">
         <div
-          className="absolute left-[12px] top-1/2 h-[60px] w-[60px] border-[#007FAB] border-[8px] bg-[#FFB65C] cursor-pointer flex items-center justify-center"
+          className="absolute left-[12px] top-1/2 h-[60px] w-[60px] border-[#007FAB] border-[8px] bg-[#FFB65C] hover:bg-[#FFE2A9] cursor-pointer flex items-center justify-center"
           onClick={handleOpenClick}
         >
           <p className="text-[#0080AC] text-[30px] font-bold">
